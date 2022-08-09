@@ -49,7 +49,7 @@ html, body {
 #menu .plato {
   background: white;
   width: 403px;
-  height: 450px;
+  height: 460px;
   margin: 20px 0 30px 190px;
   display: inline-block;
 }
@@ -67,4 +67,37 @@ html, body {
 #menu .plato-nombre p {
   padding: 0 20px 0 20px;
   font-size: 18px;
+}
+
+/** Footer **/
+footer {
+    background: grey;
+    color: black;
+    height: 12vh;
+}
+
+.direccion {
+    float: left;
+    text-align: left;
+    width: 50%;
+    padding: 15px 0 15px 30px;
+}
+
+.direccion h1{
+    margin-bottom: 10px;
+}
+
+.direccion p {
+    font-size: 25px;
+}
+
+.redes {
+    float: right;
+    width: 50%;
+    padding: 15px 0 15px 30px;
+}
+
+svg {
+    margin: 10px 10px 0 0;
+    height: 30px;
 }
