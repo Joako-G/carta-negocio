@@ -1,100 +1,85 @@
 @import url('https://fonts.googleapis.com/css2?family=Mouse+Memoirs&display=swap');
 
 * {
-  margin: 0px;
-  padding: 0px;
-  box-sizing: border-box;
+  color: #2A9D8F;
+  font-family: 'Mouse Memoirs', sans-serif;
 }
 
-html, body {
+.fondo {
   background: #E9C46A;
-  font-family: 'Mouse Memoirs', sans-serif;
-  color: #2A9D8F;
 }
 
 /** Cabecera **/
 #cabecera {
-  height: 16vh;
   background: #F4A261;
+  padding-bottom: 15px;
 }
 
-.logo {
-  float: left;
-  width: 30%;
-  margin: 25px 0px 0px 35px;
+#cabecera .logo {
+  margin: 15px 0 0 35px;
+  text-align: center;
 }
 
 #cabecera img {
+  
   width: 100px;
   height: 100px;
   border-radius: 100%;
 }
 
-.titulo {
-  float: right;
-  width: 65%;
-  text-align: left;
-  font-size: 40px;
+#cabecera .titulo {
+  text-align: center;
+}
+
+#cabecera h2 {
+  font-size: 50px;
   margin-top: 35px;
   letter-spacing: 10px;
 }
 
 /** Menu **/
 #menu {
+  background: #E9C46A;
   margin-top: 20px;
   color: black;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-#menu .plato {
-  background: white;
-  width: 403px;
-  height: 460px;
-  margin: 20px 0 30px 190px;
-  display: inline-block;
+#menu img {
+  height: 100%;
+  width: 100%;
 }
 
-#menu img{
-  height: 27vh;
+#menu .card {
+  height: 99%;
+  width: auto;
 }
 
-#menu .plato-nombre h3 {
-  font-size: 30px;
-  text-align: center;
-  margin: 10px 0 20px 0;
-}
-
-#menu .plato-nombre p {
-  padding: 0 20px 0 20px;
-  font-size: 18px;
-}
 
 /** Footer **/
 footer {
-    background: grey;
-    color: black;
-    height: 12vh;
+  background: grey;
+  color: black;
+  height: 100%;
 }
 
 .direccion {
-    float: left;
-    text-align: left;
-    width: 50%;
-    padding: 15px 0 15px 30px;
+  float: left;
+  text-align: left;
+  padding: 15px 0 15px 0px;
 }
 
 .direccion h1{
-    margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 .direccion p {
-    font-size: 25px;
+    font-size: 20px;
 }
 
 .redes {
     float: right;
-    width: 50%;
-    padding: 15px 0 15px 30px;
+    padding: 5px 0 15px 0;
 }
 
 svg {
