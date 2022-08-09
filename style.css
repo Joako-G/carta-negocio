@@ -21,7 +21,7 @@ html, body {
 .logo {
   float: left;
   width: 30%;
-  margin: 30px 0px 0px 35px;
+  margin: 25px 0px 0px 35px;
 }
 
 #cabecera img {
@@ -35,7 +35,7 @@ html, body {
   width: 65%;
   text-align: left;
   font-size: 40px;
-  margin-top: 20px;
+  margin-top: 35px;
   letter-spacing: 10px;
 }
 
@@ -48,14 +48,14 @@ html, body {
 
 #menu .plato {
   background: white;
-  width: 350px;
+  width: 403px;
   height: 450px;
-  margin: 20px 0 30px 90px;
+  margin: 20px 0 30px 190px;
   display: inline-block;
 }
 
 #menu img{
-  height: 221px;
+  height: 27vh;
 }
 
 #menu .plato-nombre h3 {
