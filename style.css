@@ -45,11 +45,6 @@
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-#menu img {
-  height: 100%;
-  width: 100%;
-}
-
 #menu .card {
   height: 99%;
   width: auto;
@@ -58,7 +53,7 @@
 
 /** Footer **/
 footer {
-  background: grey;
+  background: #f7ede2;
   color: black;
   height: 100%;
 }
@@ -73,16 +68,24 @@ footer {
   margin-bottom: 10px;
 }
 
-.direccion p {
-    font-size: 20px;
-}
+
 
 .redes {
-    float: right;
-    padding: 5px 0 15px 0;
+  float: right;
+  padding: 5px 0 15px 0;
+}
+
+#footer p {
+  display: inline-block;
+  font-size: 18px;
 }
 
 svg {
-    margin: 10px 10px 0 0;
-    height: 30px;
+  margin: 5px 10px 0 0;
+  height: 30px;
+  color: black;
+}
+
+#footer .wp{
+  margin-top: 0px;
 }
